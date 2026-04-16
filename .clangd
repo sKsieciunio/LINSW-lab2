@@ -1,0 +1,6 @@
+CompileFlags:
+  Add:
+    - "--sysroot=~/buildroot/buildroot-2025.11.2/output/host/usr/aarch64-buildroot-linux-gnu/sysroot"
+    - "-I/~/buildroot/buildroot-2025.11.2/output/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include"
+    - "--target=aarch64-buildroot-linux-gnu" # match your target arch
+  Compiler: ~/buildroot/buildroot-2025.11.2/output/host/usr/bin/aarch64-none-linux-gnu-gcc

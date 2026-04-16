@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Buildroot",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "~/buildroot/buildroot-2025.11.2/output/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include"
+      ],
+      "defines": [],
+      "compilerPath": "~/buildroot/buildroot-2025.11.2/output/host/usr/bin/aarch64-none-linux-gnu-gcc",
+      "cStandard": "gnu11",
+      "intelliSenseMode": "linux-gcc-arm"
+    }
+  ],
+  "version": 4
+}
