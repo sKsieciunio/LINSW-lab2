@@ -1,0 +1,5 @@
+config BR2_PACKAGE_SEQUENCER
+    bool "sequencer"
+    select BR2_PACKAGE_C_PHRIPHERY
+    help
+      Sequencer program using libperiphery and pthreads.
