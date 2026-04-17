@@ -1,12 +1,3 @@
-# Quick GDB Remote Debugging Guide
-
-## Your Setup
-You have two sides:
-- **Host** (your PC) — runs `gdb`
-- **Target** (board) — runs `gdbserver`
-
----
-
 ## On the Target Board
 
 ```bash
